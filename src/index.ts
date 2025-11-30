@@ -1,4 +1,4 @@
-import { regexEscape } from "./escape-regex";
+import { regexEscape } from "./escape-regex.js";
 
 const createTagFunction = (func: (arg:string) => string) => {
     return (strings: TemplateStringsArray, ...substitutions: string[]) => {

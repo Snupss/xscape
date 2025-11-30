@@ -1,13 +1,9 @@
 {
-  "extends": "./tsconfig-base.json",
-  
-  // Visit https://aka.ms/tsconfig to read more about this file
+  "extends": "./tsconfig.json",
+
   "compilerOptions": {
     "outDir": "./dist/cjs",
-    // Environment Settings
-    // See also https://aka.ms/tsconfig/module
     "module": "commonjs",
-    "target": "es2017",
     "tsBuildInfoFile": "cjs.tsbuildinfo",
   }
 }
