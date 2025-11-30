@@ -1,9 +1,9 @@
 {
-  "extends": "./tsconfig",
+  "extends": "../tsconfig",
   "compilerOptions": {
     "declaration": true,
     "emitDeclarationOnly": true,
-    "outDir": "./dist/types",
+    "outDir": "../dist/types",
     "module": "commonjs",
     "tsBuildInfoFile": "types.tsbuildinfo",
   }

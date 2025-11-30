@@ -28,9 +28,9 @@
   },
   "scripts": {
     "build": "npm run build:mjs && npm run build:cjs && npm run build:types",
-    "build:mjs": "tsc --build ./tsconfig-mjs.json",
-    "build:cjs": "tsc --build ./tsconfig-cjs.json",
-    "build:types": "tsc --build ./tsconfig-types.json",
+    "build:mjs": "tsc --build ./config/tsconfig-mjs.json",
+    "build:cjs": "tsc --build ./config/tsconfig-cjs.json",
+    "build:types": "tsc --build ./config/tsconfig-types.json",
     "test-watch": "npx jest --watch",
     "test": "npx jest",
     "package": "npm run build && npm pack"
