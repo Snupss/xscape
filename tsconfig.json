@@ -3,7 +3,7 @@
   "compilerOptions": {
     "rootDir": "./src",
     "target": "esnext",
-    "sourceMap": true,
+    "sourceMap": false,
     "noUncheckedIndexedAccess": true,
     "exactOptionalPropertyTypes": true,
     "strict": true,
